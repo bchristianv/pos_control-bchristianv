@@ -1,32 +1,34 @@
 ---
 site_bchristianv::nameservice::hosts::entries:
-  poscmprxy101.localdomain.local:
+  posmom101.localdomain.local:
     ensure: present
     host_aliases:
-      - poscmprxy101
+      - posmom101
+      - pemaster.localdomain.local
+      - pemaster
+    ip: 172.16.41.101
+    target: /etc/hosts
+  poscmprxy111.localdomain.local:
+    ensure: present
+    host_aliases:
+      - poscmprxy111
       - poscm.localdomain.local
       - poscm
       - posmaster.localdomain.local
       - posmaster
-    ip: 172.16.41.101
-    target: /etc/hosts
-  poscm111.localdomain.local:
-    ensure: present
-    host_aliases:
-      - poscm111
     ip: 172.16.41.111
     target: /etc/hosts
-  poscm112.localdomain.local:
+  poscm121.localdomain.local:
     ensure: present
     host_aliases:
-      - poscm112
-    ip: 172.16.41.112
-    target: /etc/hosts
-  posdb121.localdomain.local:
-    ensure: present
-    host_aliases:
-      - posdb121
+      - poscm121
     ip: 172.16.41.121
+    target: /etc/hosts
+  poscm122.localdomain.local:
+    ensure: present
+    host_aliases:
+      - poscm122
+    ip: 172.16.41.122
     target: /etc/hosts
   posagent131.localdomain.local:
     ensure: present
