@@ -6,8 +6,6 @@ site_bchristianv::nameservice::hosts::entries:
       - posmom101
       - posmom.localdomain.local
       - posmom
-      # - posmaster.localdomain.local
-      # - posmaster
     ip: 172.16.41.101
     target: /etc/hosts
   poscmprxy111.localdomain.local:
@@ -16,8 +14,6 @@ site_bchristianv::nameservice::hosts::entries:
       - poscmprxy111
       - poscm.localdomain.local
       - poscm
-      - posmaster.localdomain.local
-      - posmaster
     ip: 172.16.41.111
     target: /etc/hosts
   poscm121.localdomain.local:
