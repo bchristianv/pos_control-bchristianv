@@ -1,0 +1,4 @@
+---
+modulepath: ./modules
+hiera-config: ./hiera.yaml
+save-rerun: false
