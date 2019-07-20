@@ -27,3 +27,7 @@ mod 'site_bchristianv',
 mod 'yum',
     :git => 'https://github.com/bchristianv/puppet_mod-yum.git',
     :ref => '1.0.1'
+
+#
+# Puppet Modules for only Bolt plans
+#mod 'abrader/gms',                       '1.0.3'
