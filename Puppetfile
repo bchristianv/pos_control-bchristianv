@@ -23,7 +23,7 @@ mod 'puppet/selinux',                    '3.0.0'
 # Git Modules
 mod 'site_bchristianv',
     :git => 'https://github.com/bchristianv/puppet_mod-site_bchristianv.git',
-    :ref => '1.3.0'
+    :ref => '1.4.0'
 mod 'yum',
     :git => 'https://github.com/bchristianv/puppet_mod-yum.git',
     :ref => '1.0.1'
