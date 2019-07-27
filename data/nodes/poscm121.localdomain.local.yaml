@@ -1,0 +1,14 @@
+---
+site_bchristianv::role::pos_puppet::compile_master::r10k_git_remote: git@github.com:bchristianv/pos_control-bchristianv.git
+site_bchristianv::role::pos_puppet::compile_master::control_repo_sshkey_name: github.com
+site_bchristianv::role::pos_puppet::compile_master::control_repo_sshkey_type: ssh-rsa
+site_bchristianv::role::pos_puppet::compile_master::control_repo_sshkey_key: AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+site_bchristianv::role::pos_puppet::compile_master::puppet_mom_fqdn: posmom101.localdomain.local
+site_bchristianv::role::pos_puppet::compile_master::manage_firewalld: true
+site_bchristianv::role::pos_puppet::compile_master::dns_alt_names:
+  - poscm121
+  - poscm.localdomain.local
+  - poscm
+site_bchristianv::role::pos_puppet::compile_master::puppetserver_xms: 256m
+site_bchristianv::role::pos_puppet::compile_master::puppetserver_xmx: 256m
+site_bchristianv::role::pos_puppet::compile_master::control_repo_private_sshkey: /etc/puppetlabs/puppetserver/ssh/pos_control-bchristianv-id_rsa
