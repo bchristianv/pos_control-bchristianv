@@ -4,6 +4,7 @@ mod 'puppetlabs/apt',                    '6.3.0'
 mod 'puppetlabs/concat',                 '6.0.0'
 mod 'puppetlabs/firewall',               '2.0.0'
 mod 'puppetlabs/git',                    '0.5.0'
+mod 'puppetlabs/hocon',                  '1.0.1'
 mod 'puppetlabs/haproxy',                '4.0.0'
 mod 'puppetlabs/inifile',                '3.0.0'
 mod 'puppetlabs/postgresql',             '6.1.0'
@@ -26,7 +27,7 @@ mod 'puppet/selinux',                    '3.0.0'
 # Git Modules
 mod 'site_bchristianv',
     :git => 'https://github.com/bchristianv/puppet_mod-site_bchristianv.git',
-    :ref => '1.6.1'
+    :ref => '1.6.3'
 mod 'yum',
     :git => 'https://github.com/bchristianv/puppet_mod-yum.git',
     :ref => '1.0.1'
