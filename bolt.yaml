@@ -2,3 +2,7 @@
 modulepath: ./modules
 hiera-config: ./hiera.yaml
 save-rerun: false
+#ssh:
+#  host-key-check: false
+#  user: root
+#  password: puppet
