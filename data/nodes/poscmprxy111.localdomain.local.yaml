@@ -1,0 +1,4 @@
+---
+site_bchristianv::role::pos_puppet::reverse_proxy::pos_8140_backend_options_servers:
+  - server: poscm121.localdomain.local 172.16.41.121:8140
+  - server: poscm122.localdomain.local 172.16.41.122:8140
